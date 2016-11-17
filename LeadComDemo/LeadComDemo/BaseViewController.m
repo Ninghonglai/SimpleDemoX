@@ -19,19 +19,24 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)showLoadingView {
+    [self showHudInView:self.view hint:nil];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)showLoadingView:(NSString *)title {
+    [self showHudInView:self.view hint:title];
 }
-*/
+
+- (void)showToast:(NSString *)title {
+    [self showHint:title];
+}
+
+- (void)showToast:(NSString *)title withTime:(CGFloat)delay {
+    [self showHint:title withTime:delay];
+}
+
+- (void)hideLoading {
+    [self hideHud];
+}
 
 @end

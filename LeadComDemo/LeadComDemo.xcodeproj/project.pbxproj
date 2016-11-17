@@ -71,8 +71,6 @@
 		993F6E071DDDA75F00D10FEE /* DiscussionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 993F6E051DDDA75F00D10FEE /* DiscussionVC.m */; };
 		993F6E081DDDA75F00D10FEE /* DiscussionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */; };
 		993F6E0B1DDDA80100D10FEE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993F6E0A1DDDA80100D10FEE /* BaseNavigationController.m */; };
-		9967A7F41DDDACBC004B0B1B /* OriginalSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A7F01DDDACBC004B0B1B /* OriginalSerializer.m */; };
-		9967A7F51DDDACBC004B0B1B /* ZQYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A7F31DDDACBC004B0B1B /* ZQYNetWorking.m */; };
 		9967A80C1DDDACF1004B0B1B /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A7F91DDDACF1004B0B1B /* MJExtensionConst.m */; };
 		9967A80D1DDDACF1004B0B1B /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A7FB1DDDACF1004B0B1B /* MJFoundation.m */; };
 		9967A80E1DDDACF1004B0B1B /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A7FD1DDDACF1004B0B1B /* MJProperty.m */; };
@@ -83,6 +81,11 @@
 		9967A8131DDDACF1004B0B1B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A8071DDDACF1004B0B1B /* NSObject+MJKeyValue.m */; };
 		9967A8141DDDACF1004B0B1B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A8091DDDACF1004B0B1B /* NSObject+MJProperty.m */; };
 		9967A8151DDDACF1004B0B1B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9967A80B1DDDACF1004B0B1B /* NSString+MJExtension.m */; };
+		99F2AB551DDDF38000384588 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB4E1DDDF38000384588 /* UIViewController+HUD.m */; };
+		99F2AB561DDDF38000384588 /* OriginalSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB511DDDF38000384588 /* OriginalSerializer.m */; };
+		99F2AB571DDDF38000384588 /* ZQYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB541DDDF38000384588 /* ZQYNetWorking.m */; };
+		99F2AB5B1DDDF84500384588 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB591DDDF84500384588 /* RegisterVC.m */; };
+		99F2AB5C1DDDF84500384588 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F2AB5A1DDDF84500384588 /* RegisterVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -210,11 +213,6 @@
 		993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussionVC.xib; sourceTree = "<group>"; };
 		993F6E091DDDA80100D10FEE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		993F6E0A1DDDA80100D10FEE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		9967A7EF1DDDACBC004B0B1B /* OriginalSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginalSerializer.h; sourceTree = "<group>"; };
-		9967A7F01DDDACBC004B0B1B /* OriginalSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginalSerializer.m; sourceTree = "<group>"; };
-		9967A7F11DDDACBC004B0B1B /* URLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLTool.h; sourceTree = "<group>"; };
-		9967A7F21DDDACBC004B0B1B /* ZQYNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQYNetWorking.h; sourceTree = "<group>"; };
-		9967A7F31DDDACBC004B0B1B /* ZQYNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQYNetWorking.m; sourceTree = "<group>"; };
 		9967A7F71DDDACF1004B0B1B /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
 		9967A7F81DDDACF1004B0B1B /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
 		9967A7F91DDDACF1004B0B1B /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
@@ -236,6 +234,16 @@
 		9967A8091DDDACF1004B0B1B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		9967A80A1DDDACF1004B0B1B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		9967A80B1DDDACF1004B0B1B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		99F2AB4D1DDDF38000384588 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		99F2AB4E1DDDF38000384588 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		99F2AB501DDDF38000384588 /* OriginalSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginalSerializer.h; sourceTree = "<group>"; };
+		99F2AB511DDDF38000384588 /* OriginalSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginalSerializer.m; sourceTree = "<group>"; };
+		99F2AB521DDDF38000384588 /* URLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLTool.h; sourceTree = "<group>"; };
+		99F2AB531DDDF38000384588 /* ZQYNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQYNetWorking.h; sourceTree = "<group>"; };
+		99F2AB541DDDF38000384588 /* ZQYNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQYNetWorking.m; sourceTree = "<group>"; };
+		99F2AB581DDDF84500384588 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		99F2AB591DDDF84500384588 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		99F2AB5A1DDDF84500384588 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,13 +276,11 @@
 		993F6CFE1DDDA3E700D10FEE /* LeadComDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9967A7EE1DDDACBC004B0B1B /* NetWorkingTools */,
+				99F2AB4B1DDDF38000384588 /* Tools */,
 				993F6D161DDDA54D00D10FEE /* Third */,
 				993F6D021DDDA3E700D10FEE /* AppDelegate.h */,
 				993F6D031DDDA3E700D10FEE /* AppDelegate.m */,
-				993F6DEB1DDDA6A200D10FEE /* LoginVC.h */,
-				993F6DEC1DDDA6A200D10FEE /* LoginVC.m */,
-				993F6DED1DDDA6A200D10FEE /* LoginVC.xib */,
+				99F2AB5D1DDDF86200384588 /* Login */,
 				993F6DF01DDDA6F800D10FEE /* ActivitiysVC.h */,
 				993F6DF11DDDA6F800D10FEE /* ActivitiysVC.m */,
 				993F6DF21DDDA6F800D10FEE /* ActivitiysVC.xib */,
@@ -509,18 +515,6 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
-		9967A7EE1DDDACBC004B0B1B /* NetWorkingTools */ = {
-			isa = PBXGroup;
-			children = (
-				9967A7EF1DDDACBC004B0B1B /* OriginalSerializer.h */,
-				9967A7F01DDDACBC004B0B1B /* OriginalSerializer.m */,
-				9967A7F11DDDACBC004B0B1B /* URLTool.h */,
-				9967A7F21DDDACBC004B0B1B /* ZQYNetWorking.h */,
-				9967A7F31DDDACBC004B0B1B /* ZQYNetWorking.m */,
-			);
-			path = NetWorkingTools;
-			sourceTree = "<group>";
-		};
 		9967A7F61DDDACF1004B0B1B /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,6 +541,49 @@
 				9967A80B1DDDACF1004B0B1B /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		99F2AB4B1DDDF38000384588 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				99F2AB4C1DDDF38000384588 /* ActivityViewTools */,
+				99F2AB4F1DDDF38000384588 /* NetWorkingTools */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		99F2AB4C1DDDF38000384588 /* ActivityViewTools */ = {
+			isa = PBXGroup;
+			children = (
+				99F2AB4D1DDDF38000384588 /* UIViewController+HUD.h */,
+				99F2AB4E1DDDF38000384588 /* UIViewController+HUD.m */,
+			);
+			path = ActivityViewTools;
+			sourceTree = "<group>";
+		};
+		99F2AB4F1DDDF38000384588 /* NetWorkingTools */ = {
+			isa = PBXGroup;
+			children = (
+				99F2AB501DDDF38000384588 /* OriginalSerializer.h */,
+				99F2AB511DDDF38000384588 /* OriginalSerializer.m */,
+				99F2AB521DDDF38000384588 /* URLTool.h */,
+				99F2AB531DDDF38000384588 /* ZQYNetWorking.h */,
+				99F2AB541DDDF38000384588 /* ZQYNetWorking.m */,
+			);
+			path = NetWorkingTools;
+			sourceTree = "<group>";
+		};
+		99F2AB5D1DDDF86200384588 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				993F6DEB1DDDA6A200D10FEE /* LoginVC.h */,
+				993F6DEC1DDDA6A200D10FEE /* LoginVC.m */,
+				993F6DED1DDDA6A200D10FEE /* LoginVC.xib */,
+				99F2AB581DDDF84500384588 /* RegisterVC.h */,
+				99F2AB591DDDF84500384588 /* RegisterVC.m */,
+				99F2AB5A1DDDF84500384588 /* RegisterVC.xib */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -615,6 +652,7 @@
 				993F6E081DDDA75F00D10FEE /* DiscussionVC.xib in Resources */,
 				993F6D0F1DDDA3E700D10FEE /* LaunchScreen.storyboard in Resources */,
 				993F6DC31DDDA61F00D10FEE /* MBProgressHUD.bundle in Resources */,
+				99F2AB5C1DDDF84500384588 /* RegisterVC.xib in Resources */,
 				993F6D0C1DDDA3E700D10FEE /* Assets.xcassets in Resources */,
 				993F6D6D1DDDA54E00D10FEE /* IQKeyboardManager.bundle in Resources */,
 				993F6DFE1DDDA72500D10FEE /* WorkVC.xib in Resources */,
@@ -645,6 +683,7 @@
 				9967A8121DDDACF1004B0B1B /* NSObject+MJCoding.m in Sources */,
 				993F6E071DDDA75F00D10FEE /* DiscussionVC.m in Sources */,
 				9967A8131DDDACF1004B0B1B /* NSObject+MJKeyValue.m in Sources */,
+				99F2AB5B1DDDF84500384588 /* RegisterVC.m in Sources */,
 				9967A8141DDDACF1004B0B1B /* NSObject+MJProperty.m in Sources */,
 				993F6D631DDDA54E00D10FEE /* IQUIViewController+Additions.m in Sources */,
 				993F6D5D1DDDA54E00D10FEE /* AFURLRequestSerialization.m in Sources */,
@@ -660,15 +699,17 @@
 				993F6DE41DDDA61F00D10FEE /* UIImageView+HighlightedWebCache.m in Sources */,
 				993F6D6A1DDDA54E00D10FEE /* IQTitleBarButtonItem.m in Sources */,
 				9967A80D1DDDACF1004B0B1B /* MJFoundation.m in Sources */,
+				99F2AB561DDDF38000384588 /* OriginalSerializer.m in Sources */,
 				993F6DE01DDDA61F00D10FEE /* UIButton+WebCache.m in Sources */,
+				99F2AB571DDDF38000384588 /* ZQYNetWorking.m in Sources */,
 				993F6D621DDDA54E00D10FEE /* IQUIView+Hierarchy.m in Sources */,
 				993F6DF81DDDA71400D10FEE /* MessageVC.m in Sources */,
+				99F2AB551DDDF38000384588 /* UIViewController+HUD.m in Sources */,
 				993F6DE51DDDA61F00D10FEE /* UIImageView+WebCache.m in Sources */,
 				993F6D5F1DDDA54E00D10FEE /* AFURLSessionManager.m in Sources */,
 				993F6D6F1DDDA54E00D10FEE /* RDVTabBarController.m in Sources */,
 				993F6D5E1DDDA54E00D10FEE /* AFURLResponseSerialization.m in Sources */,
 				993F6DF31DDDA6F800D10FEE /* ActivitiysVC.m in Sources */,
-				9967A7F41DDDACBC004B0B1B /* OriginalSerializer.m in Sources */,
 				993F6D041DDDA3E700D10FEE /* AppDelegate.m in Sources */,
 				993F6DC11DDDA61F00D10FEE /* MBProgressHUD+Add.m in Sources */,
 				993F6D671DDDA54E00D10FEE /* IQSegmentedNextPrevious.m in Sources */,
@@ -692,7 +733,6 @@
 				993F6DE61DDDA61F00D10FEE /* UIView+WebCacheOperation.m in Sources */,
 				993F6DE91DDDA64C00D10FEE /* BaseViewController.m in Sources */,
 				993F6E0B1DDDA80100D10FEE /* BaseNavigationController.m in Sources */,
-				9967A7F51DDDACBC004B0B1B /* ZQYNetWorking.m in Sources */,
 				993F6DFD1DDDA72500D10FEE /* WorkVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

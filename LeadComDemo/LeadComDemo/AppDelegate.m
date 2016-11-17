@@ -58,25 +58,25 @@
 
 #pragma mark - 添加tabbar子VC Methods
 - (void)setupViewControllers {
-    UIViewController *firstViewController = [[ActivitiysVC alloc] init];
+    UIViewController *firstViewController = [[ActivitiysVC alloc] initWithNibName:@"ActivitiysVC" bundle:nil];
     firstViewController.title = @"活动";
     BaseNavigationController *firstNavigationController = [[BaseNavigationController alloc]
                                                            initWithRootViewController:firstViewController];
     
-    UIViewController *secondViewController = [[MessageVC alloc] init];//WithNibName:@"MessageController" bundle:nil];
+    UIViewController *secondViewController = [[MessageVC alloc] initWithNibName:@"MessageVC" bundle:nil];
     secondViewController.title = @"消息";
     BaseNavigationController *secondNavigationController = [[BaseNavigationController alloc]
                                                             initWithRootViewController:secondViewController];
     
-    UIViewController *thidViewController = [[WorkVC alloc]init];
+    UIViewController *thidViewController = [[WorkVC alloc]initWithNibName:@"WorkVC" bundle:nil];
     thidViewController.title = @"工作";
     BaseNavigationController *thirdNavigationController = [[BaseNavigationController alloc]initWithRootViewController:thidViewController];
     
-    UIViewController *fourthViewController = [[CommunityVC alloc]init];
+    UIViewController *fourthViewController = [[CommunityVC alloc]initWithNibName:@"CommunityVC" bundle:nil];
     fourthViewController.title = @"群体";
     BaseNavigationController *fourthNavigationController = [[BaseNavigationController alloc]initWithRootViewController:fourthViewController];
     
-    UIViewController *fifthViewController = [[DiscussionVC alloc] init];
+    UIViewController *fifthViewController = [[DiscussionVC alloc] initWithNibName:@"DiscussionVC" bundle:nil];
     fifthViewController.title = @"讨论";
     BaseNavigationController *fifthNavigationController = [[BaseNavigationController alloc]
                                                            initWithRootViewController:fifthViewController];

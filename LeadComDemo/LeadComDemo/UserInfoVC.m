@@ -8,7 +8,7 @@
 
 #import "UserInfoVC.h"
 #import "MeHeadView.h"
-
+#import "LoginVC.h"
 
 @interface UserInfoVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -112,7 +112,21 @@
         switch (indexPath.row) {
             case 0://退出登录
             {
-
+                [UserDefaults removeObjectForKey:@"userid"];
+                [UserDefaults setBool:NO forKey:@"autoLogin"];
+                
+//                //登录
+//                [ZQYNetWorking POST:Sys_logout_URL parameters:nil success:^(id responseObject) {
+//                    [self hideLoading];
+//                    NSDictionary *responseDic = (NSDictionary *)responseObject;
+//                    if ([responseDic[@"flag"] isEqualToString:@"success"]) {
+//                    } else {
+//                    }
+//                } failure:^(NSError *error) {
+//                    [self hideLoading];
+//                }];
+                AppDelegate *app = (AppDelegate *)APP;
+                app.window.rootViewController = [[LoginVC alloc]initWithNibName:@"LoginVC" bundle:nil];
             }
                 break;
         }

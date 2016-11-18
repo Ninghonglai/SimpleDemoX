@@ -17,24 +17,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    // Do any additional setup after loading the view from its nib.
+    
+    [self setupLeftNavBtn];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupLeftNavBtn {
+    UIButton *btn = [[UIButton alloc] init];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
+    [btn setTitle:@"ME" forState:UIControlStateNormal];
+    btn.frame = CGRectMake(0, 0, 44, 44);
+    
+    [btn addTarget:self action:@selector(showUserinfo) forControlEvents:UIControlEventTouchUpInside];
+    btn.titleLabel.font = [UIFont systemFontOfSize:15];
+    btn.contentHorizontalAlignment=UIControlContentHorizontalAlignmentRight ;
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)showUserinfo {
+    UserInfoVC *vc = [[UserInfoVC alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
-*/
+
+
 
 @end

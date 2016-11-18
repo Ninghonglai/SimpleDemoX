@@ -298,12 +298,8 @@
 				99CF3F381DDEA70B007D3285 /* Activity */,
 				99CF3F391DDEA73E007D3285 /* Message */,
 				99CF3F3A1DDEA751007D3285 /* Work */,
-				993F6DFF1DDDA73C00D10FEE /* CommunityVC.h */,
-				993F6E001DDDA73C00D10FEE /* CommunityVC.m */,
-				993F6E011DDDA73C00D10FEE /* CommunityVC.xib */,
-				993F6E041DDDA75F00D10FEE /* DiscussionVC.h */,
-				993F6E051DDDA75F00D10FEE /* DiscussionVC.m */,
-				993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */,
+				99CF3F3D1DDED27E007D3285 /* Community */,
+				99CF3F3E1DDED2A0007D3285 /* Discussion */,
 				993F6DEA1DDDA65300D10FEE /* Base */,
 				993F6D0B1DDDA3E700D10FEE /* Assets.xcassets */,
 				993F6D0D1DDDA3E700D10FEE /* LaunchScreen.storyboard */,
@@ -591,6 +587,26 @@
 				993F6DFC1DDDA72500D10FEE /* WorkVC.xib */,
 			);
 			name = Work;
+			sourceTree = "<group>";
+		};
+		99CF3F3D1DDED27E007D3285 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				993F6DFF1DDDA73C00D10FEE /* CommunityVC.h */,
+				993F6E001DDDA73C00D10FEE /* CommunityVC.m */,
+				993F6E011DDDA73C00D10FEE /* CommunityVC.xib */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		99CF3F3E1DDED2A0007D3285 /* Discussion */ = {
+			isa = PBXGroup;
+			children = (
+				993F6E041DDDA75F00D10FEE /* DiscussionVC.h */,
+				993F6E051DDDA75F00D10FEE /* DiscussionVC.m */,
+				993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */,
+			);
+			name = Discussion;
 			sourceTree = "<group>";
 		};
 		99F2AB4B1DDDF38000384588 /* Tools */ = {

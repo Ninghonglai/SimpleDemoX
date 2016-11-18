@@ -41,7 +41,7 @@
 //        [UserDefaults setBool:YES forKey:@"isFirstIn"];
 //    }else{
     BOOL  autoLogin = [UserDefaults boolForKey:@"autoLogin"];
-        if (!autoLogin) {//自动
+        if (autoLogin) {//自动
             NSString *userid = [UserDefaults objectForKey:@"userid"];
             if (userid) {
                 [[User DefaultUser]requestUserInfoByID:userid];

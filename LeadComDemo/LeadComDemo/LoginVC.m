@@ -38,8 +38,9 @@
     }
 }
 
-- (IBAction)register:(id)sender {
-    
+- (IBAction)registerBtnClicked:(id)sender {
+    RegisterVC *vc = [[RegisterVC alloc]initWithNibName:@"RegisterVC" bundle:nil];
+    [self presentViewController:vc animated:YES completion:nil];
     
 }
 

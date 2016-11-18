@@ -9,29 +9,29 @@
 #import "RegisterVC.h"
 
 @interface RegisterVC ()
+@property (weak, nonatomic) IBOutlet UIView *baseView;
+@property (weak, nonatomic) IBOutlet UITextField *usernameInput;
 
+@property (weak, nonatomic) IBOutlet UITextField *passwordInput;
+@property (weak, nonatomic) IBOutlet UIButton *registerBtn;
 @end
 
 @implementation RegisterVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    ViewRadius(self.registerBtn, 4);
+    //ViewBorderRadius(self.baseView, 3, 0.5, [UIColor colorWithRed:0.431 green:0.478 blue:0.510 alpha:1.00]);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)registerBtnClicked:(id)sender {
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)cancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
-*/
+
 
 @end

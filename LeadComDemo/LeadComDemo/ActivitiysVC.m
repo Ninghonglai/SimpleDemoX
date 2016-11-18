@@ -7,6 +7,7 @@
 //
 
 #import "ActivitiysVC.h"
+#import "UserInfoVC.h"
 
 @interface ActivitiysVC ()
 

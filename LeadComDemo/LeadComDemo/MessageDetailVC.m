@@ -1,27 +1,23 @@
 //
-//  MessageVC.m
+//  MessageDetailVC.m
 //  LeadComDemo
 //
-//  Created by 张庆玉 on 2016/11/17.
+//  Created by 蔺宏来 on 2016/11/18.
 //  Copyright © 2016年 张庆玉. All rights reserved.
 //
 
-#import "MessageVC.h"
 #import "MessageDetailVC.h"
 
-@interface MessageVC ()
+@interface MessageDetailVC ()
 
 @end
 
-@implementation MessageVC
+@implementation MessageDetailVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.title = @"吃龙虾大赛";
     // Do any additional setup after loading the view from its nib.
-}
-- (IBAction)gotoMessageListVC:(id)sender {
-    [self.navigationController pushViewController:[MessageDetailVC new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

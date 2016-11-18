@@ -7,6 +7,7 @@
 //
 
 #import "CommunityVC.h"
+#import "CommunityDetailVC.h"
 
 @interface CommunityVC ()
 
@@ -18,6 +19,11 @@
     [super viewDidLoad];
     self.edgesForExtendedLayout = UIRectEdgeNone;
     // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)gotoCommunityDetailVC:(UIButton *)sender {
+    UIViewController *vc = [[CommunityDetailVC alloc]initWithNibName:@"CommunityDetailVC" bundle:nil];
+    vc.title = sender.titleLabel.text;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 //
 
 #import "ActivitiysVC.h"
+#import "ActivityDetailVC.h"
 
 @interface ActivitiysVC ()
 
@@ -18,12 +19,17 @@
     [super viewDidLoad];
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    // Do any additional setup after loading the view from its nib.
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)gotoDetailVC:(UIButton*)sender {
+    UIViewController *vc = [[ActivityDetailVC alloc]initWithNibName:@"ActivityDetailVC" bundle:nil];
+    vc.title = sender.titleLabel.text;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*

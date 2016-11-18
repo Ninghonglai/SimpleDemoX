@@ -1,27 +1,30 @@
 //
-//  MessageVC.m
+//  ActivityDetailVC.m
 //  LeadComDemo
 //
-//  Created by 张庆玉 on 2016/11/17.
+//  Created by 蔺宏来 on 2016/11/18.
 //  Copyright © 2016年 张庆玉. All rights reserved.
 //
 
-#import "MessageVC.h"
-#import "MessageDetailVC.h"
+#import "ActivityDetailVC.h"
 
-@interface MessageVC ()
+@interface ActivityDetailVC ()
 
 @end
 
-@implementation MessageVC
+@implementation ActivityDetailVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.tabBarController.hidesBottomBarWhenPushed = YES;
     // Do any additional setup after loading the view from its nib.
 }
-- (IBAction)gotoMessageListVC:(id)sender {
-    [self.navigationController pushViewController:[MessageDetailVC new] animated:YES];
+- (IBAction)gotoEvent:(UIButton *)sender {
+    UIViewController *vc = [UIViewController new];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    vc.title = sender.titleLabel.text;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

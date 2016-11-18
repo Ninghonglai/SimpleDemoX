@@ -86,6 +86,13 @@
 		99F2AB571DDDF38000384588 /* ZQYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB541DDDF38000384588 /* ZQYNetWorking.m */; };
 		99F2AB5B1DDDF84500384588 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB591DDDF84500384588 /* RegisterVC.m */; };
 		99F2AB5C1DDDF84500384588 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F2AB5A1DDDF84500384588 /* RegisterVC.xib */; };
+		9F76748F1DDED86E002E953D /* account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76748E1DDED86E002E953D /* account@2x.png */; };
+		9F7674931DDEDECD002E953D /* ActivityDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7674911DDEDECD002E953D /* ActivityDetailVC.m */; };
+		9F7674941DDEDECD002E953D /* ActivityDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7674921DDEDECD002E953D /* ActivityDetailVC.xib */; };
+		9FC570301DDEFAC200B9981A /* MessageDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5702E1DDEFAC200B9981A /* MessageDetailVC.m */; };
+		9FC570311DDEFAC200B9981A /* MessageDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5702F1DDEFAC200B9981A /* MessageDetailVC.xib */; };
+		9FC570351DDEFB5A00B9981A /* CommunityDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC570331DDEFB5A00B9981A /* CommunityDetailVC.m */; };
+		9FC570361DDEFB5A00B9981A /* CommunityDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC570341DDEFB5A00B9981A /* CommunityDetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,6 +251,16 @@
 		99F2AB581DDDF84500384588 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		99F2AB591DDDF84500384588 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
 		99F2AB5A1DDDF84500384588 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		9F76748E1DDED86E002E953D /* account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account@2x.png"; sourceTree = "<group>"; };
+		9F7674901DDEDECD002E953D /* ActivityDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailVC.h; sourceTree = "<group>"; };
+		9F7674911DDEDECD002E953D /* ActivityDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailVC.m; sourceTree = "<group>"; };
+		9F7674921DDEDECD002E953D /* ActivityDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityDetailVC.xib; sourceTree = "<group>"; };
+		9FC5702D1DDEFAC200B9981A /* MessageDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailVC.h; sourceTree = "<group>"; };
+		9FC5702E1DDEFAC200B9981A /* MessageDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailVC.m; sourceTree = "<group>"; };
+		9FC5702F1DDEFAC200B9981A /* MessageDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageDetailVC.xib; sourceTree = "<group>"; };
+		9FC570321DDEFB5A00B9981A /* CommunityDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityDetailVC.h; sourceTree = "<group>"; };
+		9FC570331DDEFB5A00B9981A /* CommunityDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityDetailVC.m; sourceTree = "<group>"; };
+		9FC570341DDEFB5A00B9981A /* CommunityDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityDetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,16 +301,26 @@
 				993F6DF01DDDA6F800D10FEE /* ActivitiysVC.h */,
 				993F6DF11DDDA6F800D10FEE /* ActivitiysVC.m */,
 				993F6DF21DDDA6F800D10FEE /* ActivitiysVC.xib */,
+				9F7674901DDEDECD002E953D /* ActivityDetailVC.h */,
+				9F7674911DDEDECD002E953D /* ActivityDetailVC.m */,
+				9F7674921DDEDECD002E953D /* ActivityDetailVC.xib */,
 				993F6DF51DDDA71400D10FEE /* MessageVC.h */,
 				993F6DF61DDDA71400D10FEE /* MessageVC.m */,
 				993F6DF71DDDA71400D10FEE /* MessageVC.xib */,
+				9FC5702D1DDEFAC200B9981A /* MessageDetailVC.h */,
+				9FC5702E1DDEFAC200B9981A /* MessageDetailVC.m */,
+				9FC5702F1DDEFAC200B9981A /* MessageDetailVC.xib */,
 				993F6DFA1DDDA72500D10FEE /* WorkVC.h */,
 				993F6DFB1DDDA72500D10FEE /* WorkVC.m */,
 				993F6DFC1DDDA72500D10FEE /* WorkVC.xib */,
 				993F6DFF1DDDA73C00D10FEE /* CommunityVC.h */,
 				993F6E001DDDA73C00D10FEE /* CommunityVC.m */,
 				993F6E011DDDA73C00D10FEE /* CommunityVC.xib */,
+				9FC570321DDEFB5A00B9981A /* CommunityDetailVC.h */,
+				9FC570331DDEFB5A00B9981A /* CommunityDetailVC.m */,
+				9FC570341DDEFB5A00B9981A /* CommunityDetailVC.xib */,
 				993F6E041DDDA75F00D10FEE /* DiscussionVC.h */,
+				9F76748E1DDED86E002E953D /* account@2x.png */,
 				993F6E051DDDA75F00D10FEE /* DiscussionVC.m */,
 				993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */,
 				993F6DEA1DDDA65300D10FEE /* Base */,
@@ -647,9 +674,13 @@
 			files = (
 				993F6DF91DDDA71400D10FEE /* MessageVC.xib in Resources */,
 				993F6DEF1DDDA6A200D10FEE /* LoginVC.xib in Resources */,
+				9FC570311DDEFAC200B9981A /* MessageDetailVC.xib in Resources */,
 				993F6DF41DDDA6F800D10FEE /* ActivitiysVC.xib in Resources */,
 				993F6E031DDDA73C00D10FEE /* CommunityVC.xib in Resources */,
+				9F76748F1DDED86E002E953D /* account@2x.png in Resources */,
 				993F6E081DDDA75F00D10FEE /* DiscussionVC.xib in Resources */,
+				9FC570361DDEFB5A00B9981A /* CommunityDetailVC.xib in Resources */,
+				9F7674941DDEDECD002E953D /* ActivityDetailVC.xib in Resources */,
 				993F6D0F1DDDA3E700D10FEE /* LaunchScreen.storyboard in Resources */,
 				993F6DC31DDDA61F00D10FEE /* MBProgressHUD.bundle in Resources */,
 				99F2AB5C1DDDF84500384588 /* RegisterVC.xib in Resources */,
@@ -673,6 +704,7 @@
 				993F6DDF1DDDA61F00D10FEE /* SDWebImagePrefetcher.m in Sources */,
 				993F6D651DDDA54E00D10FEE /* IQKeyboardManager.m in Sources */,
 				993F6DE31DDDA61F00D10FEE /* UIImage+WebP.m in Sources */,
+				9F7674931DDEDECD002E953D /* ActivityDetailVC.m in Sources */,
 				993F6DD71DDDA61F00D10FEE /* MKAnnotationView+WebCache.m in Sources */,
 				993F6D601DDDA54E00D10FEE /* IQNSArray+Sort.m in Sources */,
 				9967A80F1DDDACF1004B0B1B /* MJPropertyKey.m in Sources */,
@@ -730,6 +762,8 @@
 				993F6D011DDDA3E700D10FEE /* main.m in Sources */,
 				993F6DD91DDDA61F00D10FEE /* SDImageCache.m in Sources */,
 				993F6D6B1DDDA54E00D10FEE /* IQToolbar.m in Sources */,
+				9FC570351DDEFB5A00B9981A /* CommunityDetailVC.m in Sources */,
+				9FC570301DDEFAC200B9981A /* MessageDetailVC.m in Sources */,
 				993F6DE61DDDA61F00D10FEE /* UIView+WebCacheOperation.m in Sources */,
 				993F6DE91DDDA64C00D10FEE /* BaseViewController.m in Sources */,
 				993F6E0B1DDDA80100D10FEE /* BaseNavigationController.m in Sources */,

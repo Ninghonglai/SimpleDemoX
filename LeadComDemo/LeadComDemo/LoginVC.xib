@@ -59,7 +59,7 @@
                                 <constraint firstAttribute="height" constant="44" id="gKU-Ro-4CA"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            <textInputTraits key="textInputTraits"/>
                         </textField>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v3b-Ot-Xg4">
                             <rect key="frame" x="72" y="45" width="190" height="44"/>
@@ -67,7 +67,7 @@
                                 <constraint firstAttribute="height" constant="44" id="uQQ-Ku-mX2"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                         </textField>
                     </subviews>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

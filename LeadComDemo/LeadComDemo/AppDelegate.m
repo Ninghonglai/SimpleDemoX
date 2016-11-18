@@ -39,7 +39,7 @@
 //        self.window.rootViewController = [[GuideViewController alloc] init];
 //        [UserDefaults setBool:YES forKey:@"isFirstIn"];
 //    }else{
-    BOOL  autoLogin = [UserDefaults boolForKey:@"autoLogin"];
+    BOOL  autoLogin = 1;// [UserDefaults boolForKey:@"autoLogin"];
         if (autoLogin) {//自动
             self.window.rootViewController = self.viewController;
         }else{

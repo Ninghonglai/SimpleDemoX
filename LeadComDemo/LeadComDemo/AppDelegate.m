@@ -18,7 +18,8 @@
 #import "CommunityVC.h"
 #import "DiscussionVC.h"
 
-#define UserDefaults [NSUserDefaults standardUserDefaults]
+#import "User.h"
+
 
 
 
@@ -39,9 +40,16 @@
 //        self.window.rootViewController = [[GuideViewController alloc] init];
 //        [UserDefaults setBool:YES forKey:@"isFirstIn"];
 //    }else{
-    BOOL  autoLogin = 1;// [UserDefaults boolForKey:@"autoLogin"];
+    BOOL  autoLogin = [UserDefaults boolForKey:@"autoLogin"];
         if (autoLogin) {//自动
-            self.window.rootViewController = self.viewController;
+            NSString *userid = [UserDefaults objectForKey:@"userid"];
+            if (userid) {
+                [[User DefaultUser]requestUserInfoByID:userid];
+                self.window.rootViewController = self.viewController;
+            } else {
+                //MyAlertView(@"请重新登录!")
+                self.window.rootViewController = [[LoginVC alloc]initWithNibName:@"LoginVC" bundle:nil];
+            }
         }else{
             self.window.rootViewController = [[LoginVC alloc]initWithNibName:@"LoginVC" bundle:nil];
         }

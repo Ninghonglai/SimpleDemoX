@@ -8,6 +8,7 @@
 
 #import "LoginVC.h"
 #import "RegisterVC.h"
+#import "User.h"
 
 @interface LoginVC ()
 @property (weak, nonatomic) IBOutlet UIView *baseView;
@@ -25,6 +26,11 @@
     ViewRadius(self.loginBtn, 4);
     ViewRadius(self.registerBtn, 4);
     ViewBorderRadius(self.baseView, 5, .5, [UIColor colorWithRed:0.431 green:0.478 blue:0.510 alpha:1.00]);
+    
+    NSString *username = [UserDefaults objectForKey:@"username"];
+    if (username) {
+        self.userNameInput.text = username;
+    }
 }
 
 - (IBAction)login:(id)sender {
@@ -46,15 +52,32 @@
 
 - (void)realLogin {
     [self showLoadingView];
-    AppDelegate *app = (AppDelegate *)APP;
+    
     NSMutableDictionary *params = [[NSMutableDictionary alloc]init];
-    [params setValue:self.userNameInput.text forKey:@"username"];
-    [params setValue:self.passwordInput.text forKey:@"password"];
+    [params setValue:self.userNameInput.text forKey:@"user"];
+    [params setValue:self.passwordInput.text forKey:@"pwd"];
 
     //登录
     [ZQYNetWorking POST:Sys_login_URL parameters:params success:^(id responseObject) {
         [self hideLoading];
-        
+        NSDictionary *responseDic = (NSDictionary *)responseObject;
+        if ([responseDic[@"flag"] isEqualToString:@"success"]) {
+            NSDictionary *user = (NSDictionary *)responseDic[@"user"];
+            [[User DefaultUser]updateUserInfoBy:user];
+            NSString *userid = [User DefaultUser].userId;
+            if (userid) {
+                [UserDefaults setObject:userid forKey:@"userid"];
+                [UserDefaults setObject:self.userNameInput.text forKey:@"username"];
+                [UserDefaults setBool:YES forKey:@"autoLogin"];
+                
+                AppDelegate *app = (AppDelegate *)APP;
+                app.window.rootViewController = app.viewController;
+            } else {
+                [self showToast:@"登录失败,请重试!"];
+            }
+        } else {
+            [self showToast:(NSString *)responseDic[@"flag"]];
+        }
         } failure:^(NSError *error) {
         [self hideLoading];
         NSString *str = [NSString stringWithFormat:@"登陆出错:%@",error];

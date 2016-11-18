@@ -86,6 +86,7 @@
 		99F2AB571DDDF38000384588 /* ZQYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB541DDDF38000384588 /* ZQYNetWorking.m */; };
 		99F2AB5B1DDDF84500384588 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB591DDDF84500384588 /* RegisterVC.m */; };
 		99F2AB5C1DDDF84500384588 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F2AB5A1DDDF84500384588 /* RegisterVC.xib */; };
+<<<<<<< HEAD
 		9F76748F1DDED86E002E953D /* account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76748E1DDED86E002E953D /* account@2x.png */; };
 		9F7674931DDEDECD002E953D /* ActivityDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7674911DDEDECD002E953D /* ActivityDetailVC.m */; };
 		9F7674941DDEDECD002E953D /* ActivityDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7674921DDEDECD002E953D /* ActivityDetailVC.xib */; };
@@ -93,6 +94,12 @@
 		9FC570311DDEFAC200B9981A /* MessageDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5702F1DDEFAC200B9981A /* MessageDetailVC.xib */; };
 		9FC570351DDEFB5A00B9981A /* CommunityDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC570331DDEFB5A00B9981A /* CommunityDetailVC.m */; };
 		9FC570361DDEFB5A00B9981A /* CommunityDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC570341DDEFB5A00B9981A /* CommunityDetailVC.xib */; };
+=======
+		99F2AB601DDE99AF00384588 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB5F1DDE99AF00384588 /* User.m */; };
+		99F2AB641DDE9D3600384588 /* UserInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB621DDE9D3600384588 /* UserInfoVC.m */; };
+		99F2AB6F1DDE9EA500384588 /* MeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AB6D1DDE9EA500384588 /* MeHeadView.m */; };
+		99F2AB701DDE9EA500384588 /* MeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F2AB6E1DDE9EA500384588 /* MeHeadView.xib */; };
+>>>>>>> EricZhangX/master
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -241,6 +248,7 @@
 		9967A8091DDDACF1004B0B1B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		9967A80A1DDDACF1004B0B1B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		9967A80B1DDDACF1004B0B1B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		99CF3F3C1DDECBAF007D3285 /* LeadcomDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeadcomDemo.pch; sourceTree = "<group>"; };
 		99F2AB4D1DDDF38000384588 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		99F2AB4E1DDDF38000384588 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		99F2AB501DDDF38000384588 /* OriginalSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginalSerializer.h; sourceTree = "<group>"; };
@@ -251,6 +259,7 @@
 		99F2AB581DDDF84500384588 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		99F2AB591DDDF84500384588 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
 		99F2AB5A1DDDF84500384588 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		9F76748E1DDED86E002E953D /* account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account@2x.png"; sourceTree = "<group>"; };
 		9F7674901DDEDECD002E953D /* ActivityDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailVC.h; sourceTree = "<group>"; };
 		9F7674911DDEDECD002E953D /* ActivityDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailVC.m; sourceTree = "<group>"; };
@@ -261,6 +270,15 @@
 		9FC570321DDEFB5A00B9981A /* CommunityDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityDetailVC.h; sourceTree = "<group>"; };
 		9FC570331DDEFB5A00B9981A /* CommunityDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityDetailVC.m; sourceTree = "<group>"; };
 		9FC570341DDEFB5A00B9981A /* CommunityDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityDetailVC.xib; sourceTree = "<group>"; };
+=======
+		99F2AB5E1DDE99AF00384588 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		99F2AB5F1DDE99AF00384588 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		99F2AB611DDE9D3600384588 /* UserInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoVC.h; sourceTree = "<group>"; };
+		99F2AB621DDE9D3600384588 /* UserInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoVC.m; sourceTree = "<group>"; };
+		99F2AB6C1DDE9EA500384588 /* MeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeHeadView.h; sourceTree = "<group>"; };
+		99F2AB6D1DDE9EA500384588 /* MeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeHeadView.m; sourceTree = "<group>"; };
+		99F2AB6E1DDE9EA500384588 /* MeHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeHeadView.xib; sourceTree = "<group>"; };
+>>>>>>> EricZhangX/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,9 +313,12 @@
 			children = (
 				99F2AB4B1DDDF38000384588 /* Tools */,
 				993F6D161DDDA54D00D10FEE /* Third */,
+				99F2AB661DDE9E1500384588 /* Views */,
 				993F6D021DDDA3E700D10FEE /* AppDelegate.h */,
 				993F6D031DDDA3E700D10FEE /* AppDelegate.m */,
+				99CF3F371DDEA6E1007D3285 /* User */,
 				99F2AB5D1DDDF86200384588 /* Login */,
+<<<<<<< HEAD
 				993F6DF01DDDA6F800D10FEE /* ActivitiysVC.h */,
 				993F6DF11DDDA6F800D10FEE /* ActivitiysVC.m */,
 				993F6DF21DDDA6F800D10FEE /* ActivitiysVC.xib */,
@@ -323,9 +344,17 @@
 				9F76748E1DDED86E002E953D /* account@2x.png */,
 				993F6E051DDDA75F00D10FEE /* DiscussionVC.m */,
 				993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */,
+=======
+				99CF3F381DDEA70B007D3285 /* Activity */,
+				99CF3F391DDEA73E007D3285 /* Message */,
+				99CF3F3A1DDEA751007D3285 /* Work */,
+				99CF3F3D1DDED27E007D3285 /* Community */,
+				99CF3F3E1DDED2A0007D3285 /* Discussion */,
+>>>>>>> EricZhangX/master
 				993F6DEA1DDDA65300D10FEE /* Base */,
 				993F6D0B1DDDA3E700D10FEE /* Assets.xcassets */,
 				993F6D0D1DDDA3E700D10FEE /* LaunchScreen.storyboard */,
+				99CF3F3C1DDECBAF007D3285 /* LeadcomDemo.pch */,
 				993F6D101DDDA3E700D10FEE /* Info.plist */,
 				993F6CFF1DDDA3E700D10FEE /* Supporting Files */,
 			);
@@ -570,6 +599,67 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		99CF3F371DDEA6E1007D3285 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				99F2AB5E1DDE99AF00384588 /* User.h */,
+				99F2AB5F1DDE99AF00384588 /* User.m */,
+				99F2AB611DDE9D3600384588 /* UserInfoVC.h */,
+				99F2AB621DDE9D3600384588 /* UserInfoVC.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		99CF3F381DDEA70B007D3285 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				993F6DF01DDDA6F800D10FEE /* ActivitiysVC.h */,
+				993F6DF11DDDA6F800D10FEE /* ActivitiysVC.m */,
+				993F6DF21DDDA6F800D10FEE /* ActivitiysVC.xib */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		99CF3F391DDEA73E007D3285 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				993F6DF51DDDA71400D10FEE /* MessageVC.h */,
+				993F6DF61DDDA71400D10FEE /* MessageVC.m */,
+				993F6DF71DDDA71400D10FEE /* MessageVC.xib */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		99CF3F3A1DDEA751007D3285 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				993F6DFA1DDDA72500D10FEE /* WorkVC.h */,
+				993F6DFB1DDDA72500D10FEE /* WorkVC.m */,
+				993F6DFC1DDDA72500D10FEE /* WorkVC.xib */,
+			);
+			name = Work;
+			sourceTree = "<group>";
+		};
+		99CF3F3D1DDED27E007D3285 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				993F6DFF1DDDA73C00D10FEE /* CommunityVC.h */,
+				993F6E001DDDA73C00D10FEE /* CommunityVC.m */,
+				993F6E011DDDA73C00D10FEE /* CommunityVC.xib */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		99CF3F3E1DDED2A0007D3285 /* Discussion */ = {
+			isa = PBXGroup;
+			children = (
+				993F6E041DDDA75F00D10FEE /* DiscussionVC.h */,
+				993F6E051DDDA75F00D10FEE /* DiscussionVC.m */,
+				993F6E061DDDA75F00D10FEE /* DiscussionVC.xib */,
+			);
+			name = Discussion;
+			sourceTree = "<group>";
+		};
 		99F2AB4B1DDDF38000384588 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,6 +701,16 @@
 				99F2AB5A1DDDF84500384588 /* RegisterVC.xib */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		99F2AB661DDE9E1500384588 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99F2AB6C1DDE9EA500384588 /* MeHeadView.h */,
+				99F2AB6D1DDE9EA500384588 /* MeHeadView.m */,
+				99F2AB6E1DDE9EA500384588 /* MeHeadView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -686,6 +786,7 @@
 				99F2AB5C1DDDF84500384588 /* RegisterVC.xib in Resources */,
 				993F6D0C1DDDA3E700D10FEE /* Assets.xcassets in Resources */,
 				993F6D6D1DDDA54E00D10FEE /* IQKeyboardManager.bundle in Resources */,
+				99F2AB701DDE9EA500384588 /* MeHeadView.xib in Resources */,
 				993F6DFE1DDDA72500D10FEE /* WorkVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -726,6 +827,7 @@
 				993F6DDA1DDDA61F00D10FEE /* SDWebImageCompat.m in Sources */,
 				993F6D5B1DDDA54E00D10FEE /* AFSecurityPolicy.m in Sources */,
 				993F6D571DDDA54E00D10FEE /* AFHTTPRequestOperation.m in Sources */,
+				99F2AB6F1DDE9EA500384588 /* MeHeadView.m in Sources */,
 				993F6D691DDDA54E00D10FEE /* IQBarButtonItem.m in Sources */,
 				993F6DD81DDDA61F00D10FEE /* NSData+ImageContentType.m in Sources */,
 				993F6DE41DDDA61F00D10FEE /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -733,6 +835,7 @@
 				9967A80D1DDDACF1004B0B1B /* MJFoundation.m in Sources */,
 				99F2AB561DDDF38000384588 /* OriginalSerializer.m in Sources */,
 				993F6DE01DDDA61F00D10FEE /* UIButton+WebCache.m in Sources */,
+				99F2AB601DDE99AF00384588 /* User.m in Sources */,
 				99F2AB571DDDF38000384588 /* ZQYNetWorking.m in Sources */,
 				993F6D621DDDA54E00D10FEE /* IQUIView+Hierarchy.m in Sources */,
 				993F6DF81DDDA71400D10FEE /* MessageVC.m in Sources */,
@@ -756,6 +859,7 @@
 				993F6D6C1DDDA54E00D10FEE /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				993F6DDB1DDDA61F00D10FEE /* SDWebImageDecoder.m in Sources */,
 				993F6D581DDDA54E00D10FEE /* AFHTTPRequestOperationManager.m in Sources */,
+				99F2AB641DDE9D3600384588 /* UserInfoVC.m in Sources */,
 				993F6D5A1DDDA54E00D10FEE /* AFNetworkReachabilityManager.m in Sources */,
 				9967A8151DDDACF1004B0B1B /* NSString+MJExtension.m in Sources */,
 				993F6DE21DDDA61F00D10FEE /* UIImage+MultiFormat.m in Sources */,
@@ -878,6 +982,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5XJU2R3CZ4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeadComDemo/LeadcomDemo.pch";
 				INFOPLIST_FILE = LeadComDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.busibuyu-163.LeadComDemo";
@@ -890,6 +996,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5XJU2R3CZ4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeadComDemo/LeadcomDemo.pch";
 				INFOPLIST_FILE = LeadComDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.busibuyu-163.LeadComDemo";

@@ -1,0 +1,40 @@
+//
+//  LeadcomDemo.pch
+//  LeadComDemo
+//
+//  Created by 张庆玉 on 2016/11/18.
+//  Copyright © 2016年 张庆玉. All rights reserved.
+//
+
+#ifndef LeadcomDemo_pch
+#define LeadcomDemo_pch
+
+#define UserDefaults [NSUserDefaults standardUserDefaults]
+#define MyAlertView(msg) [[[UIAlertView alloc]initWithTitle:@"温馨提示" message:msg delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] show];
+#define APP ((AppDelegate*)[UIApplication sharedApplication].delegate)
+// View 圆角和加边框
+#define ViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+// View 圆角
+#define ViewRadius(View, Radius)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES]
+
+#define Main_Screen_Width       [[UIScreen mainScreen] bounds].size.width
+
+//加载xib文件
+#define LoadXIB(name) [[[NSBundle mainBundle] loadNibNamed:name owner:nil options:nil] lastObject]
+
+
+#import "UIViewController+HUD.h"
+#import "AppDelegate.h"
+#import "ZQYNetWorking.h"
+#import "URLTool.h"
+
+#endif /* LeadcomDemo_pch */
